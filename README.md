@@ -5,32 +5,35 @@
 ```python
 class CS_Graduate:
     def __init__(self):
-        self.status = "Graduated 🎓"  # on paper, at least
-        self.motivation = float('nan')  # not negative anymore, just undefined
-        self.skills = {
-            "Caffeine Consumption": "Legendary",
-            "Debugging": "Print Statements Pro (still, and forever)",
-            "LinkedIn Scrolling": "PhD Level",
-            "Job Applications Sent": 247,
-            "Responses Received": 3,
-        }
-        self.current_status = "Unemployed but Available™"
-        self.diploma = "Framed. Somewhere. Probably in a box."
+        self.status = "Graduated 🎓"  # diploma: 1, job offers: 0
+        self.gpa = "Above 3.0. Nobody asked."
+        self.job_applications = 247
+        self.interviews = 3
+        self.offers = 0
+        self.resume = "Resume_Final_v2_ACTUALLY_FINAL(3).pdf"
+        self.cover_letter = "Dear [COMPANY_NAME], I am excited to apply..."  # ctrl+F, ctrl+V since day 1
+        self.diet = "Indomie + copium"
+        self.sleep_schedule = "LeetCode grind > REM cycle"
 
-    def find_job(self):
+    def apply(self, job):
+        if "Entry Level" in job.title and job.min_experience >= 5:
+            raise EntryLevelParadoxError("bro it's called ENTRY level")
+
+        self.job_applications += 1
+        return self.wait_for_response(job)
+
+    def wait_for_response(self, job):
         try:
-            return self.get_hired()
-        except NotImplementedError:
-            print("HR viewed my profile 14 times and said nothing")
-        except GhostedByRecruiterError:
-            self.motivation -= 1
+            return job.company.respond()
+        except GhostedError:
+            print("We'll keep your resume on file 🙃")  # narrator: they wouldn't
+        except ATSRejectedError:
+            print("Bot rejected me for writing 'React.js' instead of 'ReactJS'")
         finally:
-            self.apply_anyway()  # it's not stubbornness, it's a lifestyle
-
-    def get_hired(self):
-        raise NotImplementedError("Feature coming soon™ (ETA: unknown)")
+            self.copium += 1
 
 me = CS_Graduate()
-me.find_job()
-# Output: "HR viewed my profile 14 times and said nothing" x 247
+while me.offers == 0:
+    me.apply(random_linkedin_job())
+    # this loop has been running since graduation day. send help.
 ```
