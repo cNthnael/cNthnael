@@ -26,7 +26,7 @@
 
 | 📨 Applications | 🎤 Interviews | 🏆 Offers | 🗑️ Pile of Junk Count |
 |:---:|:---:|:---:|:---:|
-| # **247** | # **3** | # **0** | <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/YOUR_USERNAME&query=$.public_repos&label=&color=8b5e3c&style=for-the-badge&labelColor=8b5e3c" alt="Pile of Junk Count" /> |
+| # **247** | # **3** | # **0** | <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/cNthnael&query=$.public_repos&label=&color=8b5e3c&style=for-the-badge&labelColor=8b5e3c" alt="Pile of Junk Count" /> |
 | *and counting* | *1.2% conversion rate* | *the loop continues* | *live repo count, all of them "projects"* |
 
 </div>
