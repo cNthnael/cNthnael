@@ -24,7 +24,7 @@
 
 | 🧪 Repositories | 👥 Followers | ⭐ Stars Earned |
 |:---:|:---:|:---:|
-| <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/cNthnael&query=$.public_repos&label=&color=8b5e3c&style=for-the-badge&labelColor=8b5e3c" alt="Repositories" /> | <img src="https://img.shields.io/github/followers/cNthnael?label=&style=for-the-badge&color=b5179e&labelColor=b5179e" alt="Followers" /> | <img src="https://img.shields.io/github/stars/cNthnael?label=&style=for-the-badge&color=b5179e&labelColor=b5179e" alt="Stars" /> |
+| <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FcNthnael&query=%24.public_repos&label=&color=b5179e&style=for-the-badge&labelColor=b5179e" alt="Repositories" /> | <img src="https://img.shields.io/github/followers/cNthnael?label=&style=for-the-badge&color=b5179e&labelColor=b5179e" alt="Followers" /> | <img src="https://img.shields.io/github/stars/cNthnael?label=&style=for-the-badge&color=b5179e&labelColor=b5179e" alt="Stars" /> |
 | *some of them even finished* | *hi, thanks* | *tiny dopamine hits* |
 
 </div>
