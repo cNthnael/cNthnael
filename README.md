@@ -62,18 +62,6 @@
 </div>
 
 <br/>
-
-## 🔬 Featured Project
-
-<div align="center">
-
-| **Thorscribe** |
-|:---:|
-| Fine-tuned Florence-2 for automated image captioning on chest radiographs (thesis project) |
-| Evaluated with BLEU, ROUGE-L, METEOR, CIDEr, BERTScore and CLIP Score, plus a 50-respondent user study |
-
-</div>
-
 <br/>
 
 <div align="center">
